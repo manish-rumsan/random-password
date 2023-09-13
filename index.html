@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2>Random Password Generator</h2>
+            <p>Create strong and secure Passwords to keep your account safe online.</p>
+            <div class="wrapper">
+                <div class="input-box">
+                    <input type="text" id="password"><button onclick="copy()">Copy</button>
+                </div>
+
+                <div class="pass-length">
+                    <div class="details">
+                        <label class="title">Password Length:</label>
+                        <span></span>
+                        <input type="range" min="1" max="50" step="1">
+                    </div>
+
+                </div>
+                <div class="pass-settings">
+
+                    <ul class="options">
+                        <label class="title">Character used
+                        </label>
+                        <li class="option">
+                            <input type="checkbox" id="uppercase">
+                            <span class="check"></span>
+                            <label for="uppercase">ABC</label>
+                        </li>
+                        <li class="option">
+                            <input type="checkbox" id="lowercase">
+                            <span class="check"></span>
+                            <label for="lowercase">abc</label>
+                        </li>
+
+                        <li class="option">
+                            <input type="checkbox" id="numbers">
+                            <span class="check"></span>
+                            <label for="numbers">123</label>
+                        </li>
+                        <li class="option">
+                            <input type="checkbox" id="symbols" class="checkbox">
+                            <span class="check"></span>
+                            <label for="symbols">@#$</label>
+                        </li>
+                    </ul>
+                </div>
+                <button class="generate-btn">Generate Password</button>
+            </div>
+        </div>
+
+</body>
+
+</html>

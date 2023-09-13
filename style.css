@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: lightslategray;
+}
+
+.container {
+    width: auto;
+    align-items: center;
+    margin-left: 150px;
+    background-color: rgb(206, 111, 151);
+}
+
+.container h2 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 1.25rem 1.25rem;
+}
+
+.wrapper .input-box {
+    align-items: center;
+
+}
+
+.input-box input {
+    width: 500px;
+    height: 49px;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 2.85rem 0 1rem;
+    background-color: none;
+    color: black;
+
+}
+
+.input-box button {
+    height: 39px;
+    width: 80px;
+
+}
+
+.details {
+    margin-top: 1.5%;
+    font-size: large;
+}
+
+.details input {
+    width: 300px;
+    height: 1 5px;
+
+}
+
+.pass-settings .options {
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+    padding: 0.2em;
+    font-size: large;
+    font-weight: 500px;
+}
+
+.pass-settings .options .option {
+    width: 80px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.options .option input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+
+}
+
+.options .option .main input~.check:hover {
+    border: 2px solid aqua;
+}
+
+.options .option label {
+    cursor: pointer;
+}
+
+
+.options .option input:hover {
+    color: green;
+}
+
+
+.wrapper .generate-btn {
+    width: 250px;
+    font-size: 17px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: lightblue;
+    font-weight: bold;
+}
