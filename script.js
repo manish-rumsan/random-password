@@ -9,7 +9,7 @@ const characters = { // object of letters, numbers & symbols
     numbers: "0123456789",
     symbols: "^!$%&|[](){}:;.,*+-#@<>~"
 }
-
+//TODO cleanup code
 const generatePassword = () => {
     let staticPassword = "",
         randomPassword = "",
